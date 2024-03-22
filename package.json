@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "start": "npx ts-node src/index.ts",
-    "start:dev": "nodemon src/index.ts"
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
